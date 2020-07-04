@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: rgb(46, 46, 46);
+    font-family: "Lato", "arial", "sans-serif";
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+header {
+    transition: 2s ease-in-out;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.jumbotron {
+    background: transparent !important;
+    color: #fff;
+    margin-top: 40px;
+}
+
+h2 {
+    margin-left: 10px;
+}

@@ -1,0 +1,9 @@
+.navbar {
+    background: transparent !important;
+    padding-top: 20px;
+}
+
+nav a ,nav ul li a {
+    color: white;
+    margin-right: 30px;
+}
