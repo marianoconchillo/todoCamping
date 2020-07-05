@@ -26,6 +26,43 @@ header {
     margin-top: 40px;
 }
 
-h2 {
+h2, .btn-full, .btn-ghost {
     margin-left: 10px;
+}
+
+.navbar .navbar-toggler {
+    border-color: #fff;
+}
+
+.btn-full, .btn-ghost {
+    margin-top: 10px;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #219251;
+}
+
+.btn-full {
+    background-color: #60db94;
+    border: 2px solid #60db94;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-ghost {
+    border: 2px solid #60db94;
+    color: #fff;
+}
+
+.btn-full:hover,
+.btn:active {
+    border: 1px solid #219251;
+    color: #fff;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #219251;
+    color: #fff;
 }
