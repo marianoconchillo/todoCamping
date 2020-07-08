@@ -15,9 +15,14 @@ html {
 
 header {
     transition: 2s ease-in-out;
+    background-image: url(./assets/images/background1p.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
+}
+
+#preload {
+    display: none;
 }
 
 .jumbotron {
