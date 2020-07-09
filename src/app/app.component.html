@@ -5,20 +5,29 @@
    <img src="./assets/images/background3p.jpg" />
 </div>
 
-<!-- Header -->
-<header>
-   <!-- Transpartent navbar -->
-   <app-navbar></app-navbar>
-   <!-- Here is the main title -->
-   <div class="container">
-      <div class="jumbotron" id="jumbotron">
-         <h1 class="display-4">Todo Camping.</h1>
-         <h2>Todo lo que buscás.</h2>
-         <!-- Catálogo button -->
-         <a class="btn btn-full" href="#">Ver Catálogo</a>
-         <!-- Contáctanos button -->
-         <a class="btn btn-ghost" href="#">Contactános</a>
-       </div>
-   </div>
-</header>
+<!-- using this div, i can dissolve the background image using jquery -->
+<div class="dissolve">
+
+   <!-- Header -->
+   <header>
+      <!-- Transpartent navbar -->
+      <app-navbar></app-navbar>
+      <!-- Here is the main title -->
+      <div class="container">
+         <div class="jumbotron" id="jumbotron">
+            <h1 class="display-4">Todo Camping.</h1>
+            <h2>Todo lo que buscás.</h2>
+            <!-- Catálogo button -->
+            <a class="btn btn-full"href="#">Ofertas</a>
+            <!-- Contáctanos button -->
+            <a class="btn btn-ghost" href="#">Catálogo</a>
+          </div>
+      </div>
+   </header>
+</div>
+
+<!-- Home Component -->
 <app-home></app-home>
+
+<!-- Footer Component -->
+<app-footer></app-footer>
