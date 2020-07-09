@@ -29,4 +29,15 @@ $(document).ready(function(){
       $('.dissolve').css({'opacity' : '1'})
     }
   })
+});
+
+// Scroll from ofertas to HomeComponent
+$(document).ready(function () {
+  $('#ofertas').click(function() {
+  $('html, body').animate({
+    scrollTop: $("#home").offset().top
+  }, 1000)
 })
+});
+
+
